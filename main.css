@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header, body {
+    background-color: #fffbf7;
+}
+.header {
+    padding: 20px 300px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Navbar */
+    .logo {
+        font-size: 32px;
+        color: black;
+        text-decoration: none;
+        font-weight: 800;
+        font-family: 'Georgia';
+    }
+    .navbar a {
+        position: relative;
+        font-size: 18px;
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
+        margin-left: 40px;
+        font-family: 'Noticia Text', Times New Roman;
+        opacity: 50%;
+    }
+    .navbar a::before {
+        content: '';
+        position: absolute;
+        top: 120%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: black;
+        transition: 0.3s;
+    }
+    .navbar a:hover::before {
+        width: 100%;
+    }
+    .navbar a:hover{
+        opacity: 100%;
+    }
+/* Body */
+.line {
+    background-color: black;
+    height: 1px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.container-1 {
+    padding: 0px 300px;
+    display: flex;
+}
+.container-1 img {
+    width: 380px;
+    height: 405px;
+    position: absolute;
+    right: 390px;
+    top: 160px;
+    opacity: 40%;
+}
+.box-1 {
+    width: 50%;
+    height: 50vh;
+    border: 40px solid transparent;
+    box-sizing: border-box;
+}
+.box-1 p {
+    font-family: 'Sono';
+    opacity: 50%;
+    margin-top: 20px;
+    color: #626464;
+}
+.box-1 h2 {
+    font-family: 'Indie Flower';
+    font-weight: 800;
+    font-size: 29px;
+    color: #233b6f;
+}
+.box-1 a {
+    font-family: 'Indie Flower';
+    font-weight: 800;
+    font-size: 17px;
+    color: #233b6f;
+    text-decoration: none;
+}
+.box-1 a:hover {
+    text-decoration: underline;
+}
+    .box-2 {
+        width: 50%;
+        height: 50vh;
+        font-size: 30px;
+        border: 60px solid transparent;
+        box-sizing: border-box;
+        text-align: right;
+        position: relative;
+    }
+    .box-2 h2 {
+        font-family: 'Georgia';
+        margin-top: 130px;
+        color: #233b6f;
+        letter-spacing: 3.5px;
+    }
+    .bb-1 {
+        width: 50px;
+        height: 5px;
+        background-color: #233b6f;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+.icons {
+    display: flex;
+    justify-content: right;
+}
+.icons a {
+    padding-left: 20px;
+    font-size: 20px;
+    color: #233b6f;
+}
+.icons a:hover {
+    opacity: 50%;
+}
+.box-4 {
+    width: 50%;
+    height: 41vh;
+    border: 40px solid transparent;
+    box-sizing: border-box;
+    background-color: #5376bc;
+}
+.box-4 p {
+    color: #dbe0e1;
+    font-family: 'Sono';
+    margin-bottom: 30px;
+}
+.box-4 h2 {
+    color: white;
+    font-family: 'Indie flower';
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.box-3 {
+    width: 50%;
+    height: 41vh;
+    border: 50px solid transparent;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    background-color: #5376bc;
+    color: white;
+}
+.box-3 h1 {
+    margin-bottom: 30px;
+    font-family: 'Georgia';
+}
+.box-3 p {
+    color: #dbe0e1;
+    font-family: 'Sono';
+    margin-bottom: 30px;
+}
+.box-3 a {
+    font-family: 'Indie flower';
+    font-size: 20px;
+    color: #f3ebd3;
+}
+.box-5 {
+    width: 100%;
+    background-color: #e6f4fc;
+    height: 110vh;
+    font-family: 'Indie flower';
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+.img-1 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: #5376bc;
+    top: 127%;
+    left: 15%;
+}
+.img-2 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: #5376bc;
+    top: 140%;
+    left: 33%;
+}
+.img-3 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: #5376bc;
+    top: 130%;
+    left: 55%;
+}
+.img-4 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: #5376bc;
+    top: 150%;
+    right: 10%;
+}
+.img-5 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: #5376bc;
+    top: 180%;
+    left: 55%;
+}
+.img-6 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: #5376bc;
+    top: 190%;
+    right: 45%;
+}
+.img-7 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: #5376bc;
+    top: 170%;
+    left: 15%;
+}
+.container-2 {
+    padding: 0px 300px;
+}
+.box-6 {
+    height: 50vh;
+    background-color: aqua;
+}
+
+/* Animations */
